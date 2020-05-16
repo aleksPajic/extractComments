@@ -1,0 +1,35 @@
+{
+    "name": "Flip Card Sample",
+    "title": "FlipCard Customization Sample",
+    "description": "Renders Communities as flip cards rather than lists",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "name": "Communities FlipCard Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "match": {
+                    "condition": {
+                        "keyword": "user-email",
+                        "regex": "@"
+                    }
+                },
+                "include-files": [
+                    "flipCard/commListCardsFlipStyle.user.js"
+                ],
+                "include-repo": {
+                    "name": "customizer-sample-apps"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "communities",
+            "application": "Flip Card Sample",
+            "state": "disabled"
+        }
+    ]
+}

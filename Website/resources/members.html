@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Members</title>
+    <script>
+
+        let members = [];
+
+        fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vS4V1gKeiPuUiQKWhNCeUGsYKdssonqk6v5gvYOXcTQE1oXQYKdI3xeirSIOCmO2azmcqy29s5HHXNW/pub?gid=0&single=true&output=csv')
+        .then(data=>data.text()).then(data=>{ 
+            members = data.split('\n');
+            
+            for (let i = 0; i < members.length; i++) {
+                members[i] = members[i].split(',')
+            }
+            for (let i = 1; i < members.length; i++) {
+                let member = {}
+                for(let j = 0; j < members[0].length; j++){
+                    member[ members[0][j] ] = members[i][j]
+                }
+                members[i] = member
+            }
+            members.shift()
+            document.querySelector('body').innerText = JSON.stringify(members);
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
