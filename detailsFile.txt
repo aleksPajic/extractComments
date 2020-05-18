@@ -4,8 +4,11 @@ https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animato
 https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/static_image.js	272	https://github.com/yemount/pose-animator/blob/master/static_image.js
 https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/utils/colorUtils.js	76	https://github.com/yemount/pose-animator/blob/master/utils/colorUtils.js
 https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/utils/demoUtils.js	131	https://github.com/yemount/pose-animator/blob/master/utils/demoUtils.js
+https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/utils/fileUtils.js	40	https://github.com/yemount/pose-animator/blob/master/utils/fileUtils.js
 https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/utils/mathUtils.js	243	https://github.com/yemount/pose-animator/blob/master/utils/mathUtils.js
+https://github.com/yemount/pose-animator	https://github.com/yemount/pose-animator/utils/svgUtils.js	99	https://github.com/yemount/pose-animator/blob/master/utils/svgUtils.js
 https://github.com/compact/space	https://github.com/compact/space/app/data/kimchi.space.bodies.js	159	https://github.com/compact/space/blob/master/app/data/kimchi.space.bodies.js
+https://github.com/compact/space	https://github.com/compact/space/app/lib/fonts/helvetiker_regular.typeface.js	1	https://github.com/compact/space/blob/master/app/lib/fonts/helvetiker_regular.typeface.js
 https://github.com/compact/space	https://github.com/compact/space/app/scripts/angular/app.js	23	https://github.com/compact/space/blob/master/app/scripts/angular/app.js
 https://github.com/compact/space	https://github.com/compact/space/app/scripts/angular/controllers/BodiesCtrl.js	43	https://github.com/compact/space/blob/master/app/scripts/angular/controllers/BodiesCtrl.js
 https://github.com/compact/space	https://github.com/compact/space/app/scripts/angular/controllers/BodyCtrl.js	10	https://github.com/compact/space/blob/master/app/scripts/angular/controllers/BodyCtrl.js
@@ -42,6 +45,7 @@ https://github.com/compact/space	https://github.com/compact/space/app/scripts/th
 https://github.com/compact/space	https://github.com/compact/space/app.js	49	https://github.com/compact/space/blob/master/app.js
 https://github.com/compact/space	https://github.com/compact/space/dist/bower_components/es5-shim/es5-shim.js	1423	https://github.com/compact/space/blob/master/dist/bower_components/es5-shim/es5-shim.js
 https://github.com/compact/space	https://github.com/compact/space/dist/bower_components/json3/lib/json3.min.js	17	https://github.com/compact/space/blob/master/dist/bower_components/json3/lib/json3.min.js
+https://github.com/compact/space	https://github.com/compact/space/dist/data/kimchi.space.bodies.js	159	https://github.com/compact/space/blob/master/dist/data/kimchi.space.bodies.js
 https://github.com/compact/space	https://github.com/compact/space/dist/scripts/aa1022c1.main.js	18	https://github.com/compact/space/blob/master/dist/scripts/aa1022c1.main.js
 https://github.com/compact/space	https://github.com/compact/space/ephemeris-api/getPlanetPositionArrays.js	395	https://github.com/compact/space/blob/master/ephemeris-api/getPlanetPositionArrays.js
 https://github.com/compact/space	https://github.com/compact/space/ephemeris-api/index.js	28	https://github.com/compact/space/blob/master/ephemeris-api/index.js
@@ -59,6 +63,7 @@ https://github.com/jdrews/spaceplannr	https://github.com/jdrews/spaceplannr/js/h
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/flipCard/commListCardsFlipStyle.user.js	168	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/flipCard/commListCardsFlipStyle.user.js
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/helloWorld/helloLCONN.user.js	55	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/helloWorld/helloLCONN.user.js
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/helloWorld/helloREST.user.js	63	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/helloWorld/helloREST.user.js
+https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/helloWorld/helloWorld.user.js	55	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/helloWorld/helloWorld.user.js
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/newsRiver/newsRiverSectioned.user.js	81	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/newsRiver/newsRiverSectioned.user.js
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/onTime/onTimeUI.js	181	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/onTime/onTimeUI.js
 https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev/customizer-sample-apps/profiles/profilesCustomization.js	13	https://github.com/ibmcnxdev/customizer-sample-apps/blob/master/profiles/profilesCustomization.js
@@ -67,6 +72,7 @@ https://github.com/ibmcnxdev/customizer-sample-apps	https://github.com/ibmcnxdev
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/contactform/contactform.js	102	https://github.com/Ctrl-Alt-Tec/Website/blob/master/contactform/contactform.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/js/custom.js	110	https://github.com/Ctrl-Alt-Tec/Website/blob/master/js/custom.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/bootstrap/js/bootstrap.js	2377	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/bootstrap/js/bootstrap.js
+https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/bootstrap/js/bootstrap.min.js	7	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/bootstrap/js/bootstrap.min.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/bootstrap/js/npm.js	13	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/bootstrap/js/npm.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/easing/easing.js	166	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/easing/easing.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/jquery/jquery.min.js	5	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/jquery/jquery.min.js
@@ -75,3 +81,5 @@ https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/stickyjs/sticky.js	287	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/stickyjs/sticky.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/superfish/hoverIntent.js	158	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/superfish/hoverIntent.js
 https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/superfish/superfish.js	276	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/superfish/superfish.js
+https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/superfish/superfish.min.js	10	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/superfish/superfish.min.js
+https://github.com/Ctrl-Alt-Tec/Website	https://github.com/Ctrl-Alt-Tec/Website/lib/wow/wow.min.js	2	https://github.com/Ctrl-Alt-Tec/Website/blob/master/lib/wow/wow.min.js

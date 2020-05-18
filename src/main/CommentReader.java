@@ -70,7 +70,9 @@ public class CommentReader {
 			while ((line = reader.readLine()) != null) {
 				stringBuilder.append(line + "\n");
 				if (line.contains("//") || line.contains("/*")) {
-					lineNumbers.add(counter);
+					line = line.trim();
+					if(!(line.startsWith("*") && line.contains("://")))
+						lineNumbers.add(counter);
 				}
 				counter++;
 			}
@@ -98,7 +100,10 @@ public class CommentReader {
 				comment = comment.trim(); // change order of these lines in case we want to keep first space sign in
 											// comment
 				if(isCommentNotValid(comment)) 
+				{
+					counter++;
 					continue;
+				}	
 				
 				lines.add(makeFileLine(comment, filePath.replace('\\', '/'), lineNumbers.get(counter)));
 				allComments.add(new String(comment));
@@ -110,6 +115,7 @@ public class CommentReader {
 
 		} catch (Exception x) {
 			System.err.println("Comments content: " + comment);
+			System.err.println("File: " + filePath);
 			System.err.println(x);
 		}
 		return false;
