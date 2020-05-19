@@ -35,14 +35,16 @@ public class CommentReader {
 				"https://github.com/compact/space",
 				"https://github.com/jdrews/spaceplannr",
 				"https://github.com/ibmcnxdev/customizer-sample-apps",
-				"https://github.com/Ctrl-Alt-Tec/Website"
+				"https://github.com/Ctrl-Alt-Tec/Website",
+				"https://github.com/MercuryInduction/mercurylifesaver"
 			};
 		String rootFolderPaths[] = { 
 				"pose-animator",
 				"space",
 				"spaceplannr",
 				"customizer-sample-apps",
-				"Website"
+				"Website",
+				"mercurylifesaver"
 			};
 		for (int i = 0; i < repositoriums.length; i++) {
 			repositoriumURL = repositoriums[i];
@@ -72,7 +74,7 @@ public class CommentReader {
 				stringBuilder.append(line + "\n");
 				if (line.contains("//") || line.contains("/*")) {
 					line = line.trim();
-					if(!(line.startsWith("*") && line.contains("://")))
+					if(!(line.startsWith("*") && line.contains("://")))						
 						lineNumbers.add(counter);
 				}
 				counter++;
@@ -93,8 +95,10 @@ public class CommentReader {
 						comment = comment.substring(3, comment.length() - 2);
 					else if (comment.length() > 4)
 						comment = comment.substring(2, comment.length() - 2);
-					else
+					else {
+						counter++;
 						continue;
+					}						
 				}
 				comment = makeSubstring(comment); // change order of these lines in case we want to keep first space
 													// sign in comment
