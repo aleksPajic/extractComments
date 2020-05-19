@@ -54,6 +54,7 @@ public class CommentReader {
 	public static void proccessProject() {
 		goThroughFilesAndExtract(rootFolderPath);
 		printToFile(pathToExportFile, lines);
+		lines.clear();
 	}
 
 	public static boolean extractComments(String filePath) {
@@ -110,6 +111,7 @@ public class CommentReader {
 				counter++;
 			}
 
+			
 			// checking if we extraced any comment for file
 			return counter > 0;
 
@@ -156,7 +158,7 @@ public class CommentReader {
 			if (file.isDirectory()) {
 				goThroughFilesAndExtract(file.getPath());
 			}
-		}
+		}		
 	}
 
 	public static void printToFile(String pathToExportFile, List<String> lines) {
